@@ -4,19 +4,19 @@ _init = function
     gui = create_gui{
         x = 0,
         y = 28,
-        width = XX,
+        width = 200,
         height = 200 - 28,
     }
 
     content = gui:attach {
         x = 0,
         y = 0,
-        width = XX,
-        height = xx,
+        width = 300,
+        height = 250,
 
         draw = function(self)
             print( [[
-                Hello! This is a mini-blog version of my website tdannecy.me built for Picotron.]], 10, 10, 1)
+                Hello! This is a version of my blog tdannecy.me built for Picotron.]], 10, 10, 1)
         end
     }
 
