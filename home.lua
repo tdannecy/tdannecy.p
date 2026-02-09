@@ -1,6 +1,6 @@
 title = "Tim D'Annecy"
 
-_init = function
+_init = function()
     gui = create_gui{
         x = 0,
         y = 28,
