@@ -31,7 +31,7 @@ tdannecy@gmail.com
 --------------------------
 
 Current projects:
-        ]], 10 , 10, 0)
+        ]], max(10, (gui.width - 32*8) \ 2) , 10, 0)
         end
     }
 
