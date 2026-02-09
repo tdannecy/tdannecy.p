@@ -23,6 +23,13 @@ Picotron.
         end
     }
 
+    local buttons_top_y = 150
+	content:attach_button{x = 10, y = buttons_top_y, label = "Test",
+		tap = function()
+			download(fetch_web_only("https://raw.githubusercontent.com/May0san/piconetdemo/refs/heads/main/3dGraphics.p64"),"Test.p64")
+		end
+	}
+
     gui:attach_scrollbars()
 end
 
@@ -35,5 +42,6 @@ function _update()
 end
 
 function _draw()
+    cls()
     gui:draw_all()
 end
