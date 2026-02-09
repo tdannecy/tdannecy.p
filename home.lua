@@ -17,6 +17,7 @@ _init = function
         draw = function(self)
             print( [[
                 Hello! This is a mini-blog version of my website tdannecy.me built for Picotron.]], 10, 10, 1)
+        end
         gui:attach_scrollbars()
     }
 
