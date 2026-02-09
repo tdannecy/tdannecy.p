@@ -19,14 +19,26 @@ _init = function()
 Hello! This is a version of my 
 blog tdannecy.me built for 
 Picotron.
-        ]], 10, 10)
+
+I will be updating this site 
+with new apps and games as I 
+cook them up.
+
+If you have any questions, 
+send me an email at
+tdannecy@gmail.com
+
+--------------------------
+
+Current projects:
+        ]], gui.width - (30 * 2.5)/2 , 10)
         end
     }
 
     local buttons_top_y = 150
-	content:attach_button{x = 10, y = buttons_top_y, label = "Test",
+	content:attach_button{x = 10, y = buttons_top_y, label = "Wiki",
 		tap = function()
-			download(fetch_web_only("https://raw.githubusercontent.com/May0san/piconetdemo/refs/heads/main/3dGraphics.p64"),"Test.p64")
+			download(fetch_web_only("bbs://wiki-12.p64"),"Wiki.p64")
 		end
 	}
 
@@ -42,6 +54,6 @@ function _update()
 end
 
 function _draw()
-    cls()
+    cls(7)
     gui:draw_all()
 end
