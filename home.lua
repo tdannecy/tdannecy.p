@@ -18,17 +18,19 @@ _init = function
             print( [[
                 Hello! This is a mini-blog version of my website tdannecy.me built for Picotron.]], 10, 10, 1)
         end
-        gui:attach_scrollbars()
     }
 
-    function _update()
-        local w, h = page_size()
-        gui.width = w
-        gui.height = h
+    gui:attach_scrollbars()
+end
 
-        gui:update_all()
-    end
+function _update()
+    local w, h = page_size()
+    gui.width = w
+    gui.height = h
 
-    function _draw()
-        gui:draw_all()
-    end
+    gui:update_all()
+end
+
+function _draw()
+    gui:draw_all()
+end
