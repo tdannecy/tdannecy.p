@@ -19,7 +19,7 @@ _init = function()
 Hello! This is a version of my 
 blog tdannecy.me built for 
 Picotron.
-        ]], 10, 10, 1)
+        ]], 10, 10)
         end
     }
 
