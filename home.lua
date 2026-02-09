@@ -16,7 +16,7 @@ _init = function()
 
         draw = function(self)
             print( [[
-                Hello! This is a version of my blog tdannecy.me built for Picotron.]], 10, 10, 1)
+                Hello! This is a version of my blog tdannecy.me built for Picotron.]], 10, 10)
         end
     }
 
